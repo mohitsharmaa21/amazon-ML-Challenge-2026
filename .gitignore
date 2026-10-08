@@ -1,0 +1,22 @@
+# Raw multi-GB dataset archives and files (>100MB GitHub limit)
+code/business_entity_resolution/dataset.zip
+code/business_entity_resolution/dataset/test/
+code/business_entity_resolution/dataset/train/
+*.tsv
+!dataset_small/**/*.tsv
+*.tsv.zip
+
+# Python temporary caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environment & OS
+.venv/
+env/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

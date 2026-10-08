@@ -1,0 +1,31 @@
+# Core matching engine (EntiLink, adapted from dedupe) dependencies
+scikit-learn==1.8.0
+numpy==2.4.4
+scipy==1.17.1
+affinegap==1.12
+categorical-distance==1.9
+DoubleMetaphone==1.2
+highered==0.2.1
+pyhacrf-datamade==0.2.8
+PyLBFGS==0.2.0.16
+simplecosine==1.2
+haversine==2.9.0
+BTrees==6.5
+zope.index==8.2
+zope.interface==8.6
+zope.deferredimport==6.1.1
+zope.proxy==7.3
+persistent==6.8
+cffi==2.0.0
+pycparser==3.0
+dedupe-Levenshtein-search==1.4.5
+threadpoolctl==3.6.0
+joblib==1.5.3
+
+# Cython build toolchain (needed only if rebuilding entilink/cpredicates.pyx
+# from source, e.g. `pip install -e .` on a new machine)
+Cython==3.3.0
+setuptools
+
+# Pipeline script (er_entilink_pipeline.py)
+pandas==3.0.2

@@ -1,0 +1,11 @@
+scikit-learn
+affinegap>=1.3
+categorical-distance>=1.9
+numpy>=1.20
+doublemetaphone
+highered>=0.2.0
+simplecosine>=1.2
+haversine>=0.4.1
+BTrees>=4.1.4
+zope.index
+dedupe_Levenshtein_search
